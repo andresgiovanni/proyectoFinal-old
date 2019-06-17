@@ -1,0 +1,24 @@
+hola
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+se inicia envio
+curl -F file=@/home/admred/Documentos/vagrant/andres/Vagranfile http://192.168.19.251:8000/crear/andres
+curl -F file=@/home/admred/Documentos/vagrant/andres/Vagranfile http://192.168.19.251:8000/crear/andres

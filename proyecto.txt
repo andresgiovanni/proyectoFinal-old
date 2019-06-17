@@ -1,0 +1,67 @@
+***********************************************************
+AMBITO Creacion: Creacion proyecto, creacion vm, y arranque
+***********************************************************
+
+
+
+
+VagranFile:
+
+    indicar tarjeta de red vm en modo bridge
+
+
+ESCLAVO
+======================================================
+1- Metodo abrir, leer, borrar, crear JSON, BD del esclavo  {victor}
+
+2-webservice o uri para crear proyecto, id (vagrant init)       {victor}
+        procedimiento creacio proyecto          {Victror}
+
+3-webservice o uri para vmUP  (vagrant up)             {??}
+
+3-Metodo para informar al maestro terminacion creacion mv(enviar JSON info VM) {??}
+
+4-Metodo de suscripcion                 {??}
+5-Manejo de logs                        {??}  
+
+
+
+MAESTRO
+==================================================
+1-servicio dhcp                         {??}
+2-webservice o uri  creacion pryecto (vagrant init)                   {Andres}
+
+3-webservice o uri para vmUP(vagrant up)            {??}
+
+4-metodo para almacenar bd(uptualizar)  {??}
+5-webservice o uri para recibir del esclavo info de tarea creacion vm {??}
+
+
+
+
+***********************************************************
+**********************************************************
+AMbito de Destruir máquinas
+***********************************************************
+
+ESCLAVO
+======================================================
+1-webservice o uri vagrant destroy {??}
+2-Metodo para informar al maestro terminacion eliminacion mv(enviar JSON info VM) {??}
+
+
+MAESTRO
+=================================================
+1-webservice o uri que recibie orden cliente para destruir proyecto o vm (se debe pasar nombre proyecto y/o vm) {??}
+2-Metodo para enviar solicitud destruccion vm al esclavo  {??]}
+3-webservice o uri para recibir del esclavo info de tarea destruccion vm {??}
+
+
+
+***********************************************************
+**********************************************************
+Ambito Consultar las máquinas que están corriendo
+***********************************************************
+**********************************************************
+ambito Acceder a las máquinas
+
